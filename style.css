@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar{
+   background-color: rgb(245, 245, 245);
+   width: 100%;
+   overflow: hidden;
+   display: flex;
+
+}
+
+.nav-logo{
+    padding: 4px;
+    padding-left: 53px;
+}
+
+.logo{
+    height: 92px;
+    width: 118px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.inner-left{
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 15px;
+}
+
+.navbar-right{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.nav-but1 a{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-but1{
+    background-color: green;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.navbar2{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon1{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    padding-left: 87px;
+}
+
+.navbar2menu-container{
+    display: flex;
+    padding: 20px;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.navbar2-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+
+}
+
+.icon2{
+    color: white;
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.icon2 i{
+    padding: 19px;
+    padding-left: 29px;
+    font-size: 22px;
+}
+
+.navbar3{
+    background-color: rgb(151, 145, 145);
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+    overflow: auto;
+    z-index: 1;
+}
+
+
+
+.navbar3-menu{
+    height: 100%;
+    padding: 0;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.navbar3-menu a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+
+.content{
+    margin-left: 25%;
+}
